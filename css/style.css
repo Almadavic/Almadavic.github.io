@@ -1,0 +1,432 @@
+body {
+  margin: 0px;
+  margin-top: 45px;
+  font-family: "Fira Sans";
+}
+
+header {
+  margin: 0px 360px;
+  margin-bottom: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+h1 {
+  margin: 0px;
+  display: inline-block;
+  font-size: 3.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: inline-block;
+  justify-self: end;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.menu li a {
+  color: black;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 80px;
+  max-width: 60%;
+  margin-bottom: 0px;
+}
+
+.conteudo-principal {
+  margin: 0px 360px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem 7rem;
+  margin-bottom: 60px;
+  justify-items: center;
+}
+
+#lobo {
+  display: block;
+  width: 100%;
+}
+
+.profissao {
+  position: relative;
+}
+
+#detalhe-verde-1 {
+  position: absolute;
+  width: 20%;
+  z-index: -1;
+  top: 35px;
+  left: -34px;
+}
+
+.profissao p {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 8rem;
+  word-break: break-all;
+  max-width: 4ch;
+  color: #e0e0e0;
+  text-transform: uppercase;
+  justify-self: left;
+}
+
+.projetos {
+  display: grid;
+}
+
+.resumo p {
+  margin-top: 35px;
+  font-size: 1.5rem;
+  max-width: 750px;
+}
+
+.maiusculo {
+  text-transform: uppercase;
+}
+
+.list-itens {
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.itens {
+  padding: 10px;
+  display: grid;
+  gap: 0px 20px;
+  grid-template-columns: 1fr 1fr;
+  background: #f5f5f5;
+  font-family: Arial;
+  position: relative;
+}
+
+.itens::before {
+  content: "";
+  width: 4px;
+  height: 25px;
+  top: 15px;
+  background: greenyellow;
+  position: absolute;
+  left: -4px;
+  border-radius: 3px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+.itens span {
+  margin-left: 41px;
+  font-weight: bold;
+}
+
+.itens span,
+h4 {
+  font-size: 1.3rem;
+}
+
+.flex-tools {
+  margin-top: 10px;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex-tools li {
+  padding: 6px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.segundas-informacoes {
+  background-color: #141414;
+  padding: 70px 0px;
+}
+
+.segundas-informacoes-container {
+  margin: 0px 360px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5rem;
+}
+
+.quarto-bloco {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-self: center;
+  position: relative;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 8rem;
+  word-break: break-all;
+  color: black;
+  text-transform: uppercase;
+}
+
+.exp-academica {
+  color: white;
+  font-size: 1.7rem;
+  max-width: 600px;
+}
+
+.formacoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 0px;
+}
+
+.itens-formacoes {
+  background-color: black;
+  height: 150px;
+  width: 200px;
+  position: relative;
+}
+
+.itens-formacoes::before {
+  content: "";
+  background-color: greenyellow;
+  width: 4px;
+  height: 1.5rem;
+  top: 40px;
+  left: -5px;
+  position: absolute;
+}
+
+.itens-formacoes span {
+  display: block;
+}
+
+h6 {
+  display: inline-block;
+  color: gray;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.cargo {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 22px;
+}
+
+.localizacao {
+  text-transform: uppercase;
+  color: gray;
+  position: absolute;
+  top: 7.5rem;
+  left: 1rem;
+  font-size: 20px;
+}
+
+.extra-config {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#cursos-img,
+#idiomas-img {
+  width: 5%;
+  margin-top: 40px;
+  position: absolute;
+  left: -60px;
+}
+
+.cursos-intensivos span,
+.idiomas span {
+  display: inline-block;
+  margin-top: 3rem;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.extra-config ul {
+  margin-left: -30px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.extra-config li {
+  margin-bottom: 5px;
+}
+
+footer {
+  padding: 80px;
+  background-color: black;
+  position: relative;
+}
+
+.black {
+  margin: 0px 360px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  align-items: center;
+}
+
+#detalhe-verde-2 {
+  position: absolute;
+  width: 7%;
+  z-index: 1;
+  left: 280px;
+  top: -65px;
+}
+
+.ultima-mensagem {
+  display: inline-block;
+  color: white;
+  font-size: 26px;
+  margin-left: 10;
+}
+
+.info-pessoal {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+.direitos {
+  display: inline-block;
+  color: gray;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+@media (max-width: 1366px) {
+  header,
+  .conteudo-principal,
+  .segundas-informacoes-container {
+    margin: 0px 80px;
+  }
+
+  .exp-academica {
+    font-size: 20px;
+  }
+
+  .cursos-intensivos span,
+  .cursos-intensivos li,
+  .idiomas span,
+  .idiomas li {
+    font-size: 16px;
+  }
+
+  .experiencias {
+    width: 600px;
+  }
+
+  #detalhe-verde-2 {
+    top: -50px;
+    width: 100px;
+  }
+
+  .footer {
+    gap: 70px;
+  }
+
+  .black {
+    margin: 0px 80px;
+  }
+}
+
+@media (max-width: 1066px) {
+
+  .conteudo-principal {
+    grid-template-columns: 1fr;
+    gap:0px;
+  }
+
+  .profissao {
+    text-align: end;
+    margin: 0px;
+  }
+
+  .profissao p {
+    text-align: center;
+  }
+
+  #detalhe-verde-1 {
+    width: 100px;
+    top:60px;
+  }
+
+  #lobo {
+ display: none;
+ }
+
+ h3 {
+  display: none;
+ }
+
+}
+
+@media (max-width:968px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+ }
+
+ @media (max-width:762px) {
+  .segundas-informacoes-container {
+    grid-template-columns: 1fr;
+  }
+  h5 {
+    display: none;
+  }
+
+  .extra-config {
+    justify-items: center;
+  }
+
+  .idiomas {
+    justify-self: left;
+  }
+}
+
+ @media (max-width:636px) {
+  header {
+    margin-right: 0px;
+  }
+  .menu li:first-child {
+    margin-left: 50px;
+  }
+ }
